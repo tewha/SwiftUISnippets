@@ -1,5 +1,5 @@
 # SwiftUISnippets
-Right now, a list of SwiftUI fonts. Maybe more later.
+Right now, a list of SwiftUI fonts and buttons styles. Maybe more later.
 
 Take freely.
 

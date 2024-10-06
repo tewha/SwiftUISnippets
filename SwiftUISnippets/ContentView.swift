@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
+                NavigationLink("Button Styles") {
+                    ButtonStylesView()
+                }
                 NavigationLink("System Fonts") {
                     SystemFontsView()
                 }
