@@ -11,14 +11,22 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Button Styles") {
+                NavigationLink {
                     ButtonStylesView()
+                } label: {
+                    Label("Button Styles", systemImage: "button.horizontal")
                 }
-                NavigationLink("Font Weights") {
+
+                NavigationLink {
                     FontWeightsView()
+                } label: {
+                    Label("Font Weights", systemImage: "scalemass")
                 }
-                NavigationLink("System Fonts") {
+
+                NavigationLink {
                     SystemFontsView()
+                } label: {
+                    Label("System Fonts", systemImage: "textformat")
                 }
             }
             .navigationTitle("SwiftUISnippets")
