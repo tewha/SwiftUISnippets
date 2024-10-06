@@ -14,6 +14,9 @@ struct ContentView: View {
                 NavigationLink("Button Styles") {
                     ButtonStylesView()
                 }
+                NavigationLink("Font Weights") {
+                    FontWeightsView()
+                }
                 NavigationLink("System Fonts") {
                     SystemFontsView()
                 }
